@@ -1,0 +1,27 @@
+<!--ЗАДАЧА #3 (JQUERY)-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript" src="/template/js/jquery.js"></script>
+<script>
+    $(document).keyup(function (e) {
+        if (e.key === "ArrowUp" || e.keyCode === 38) {
+            alert('Нажата клавиша Вверх');
+        }
+        if (e.key === "ArrowRight" || e.keyCode === 39) {
+            alert('Нажата клавиша Вправо');
+        }
+        if (e.key === "ArrowDown" || e.keyCode === 40) {
+            alert('Нажата клавиша Вниз');
+        }
+        if (e.key === "ArrowLeft" || e.keyCode === 37) {
+            alert('Нажата клавиша Влево');
+        }
+    });
+</script>
+</body>
+</html>
