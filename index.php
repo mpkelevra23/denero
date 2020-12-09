@@ -83,9 +83,9 @@ final class Item
                 $this->name = $object['name'];
                 $this->status = $object['status'];
                 $this->changed = $object['changed'];
-                self::$object = clone $this;
             }
         }
+        self::$object = clone $this;
     }
 
     /**
